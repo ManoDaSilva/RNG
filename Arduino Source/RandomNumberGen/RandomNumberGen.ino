@@ -3,7 +3,7 @@ Random number generator
 By Manoel da Silva
 
 Idea from HotBits website, parts of code from coolsciencetech's instructable
-Adapted by Pene for correcting hardware bias
+Adapted by AlexisTM for correcting hardware bias
 */
 
 int time1;
