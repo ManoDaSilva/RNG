@@ -1,0 +1,13 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Geiger.PrjPcb|ReportField=ProjectFullPath~C:\Users\Manoel\Dropbox\Dev\Geiger Counter\RNG\Altium source\Geiger.PrjPcb|ReportField=Title~Bill of Materials For Project [Geiger.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~26|ReportField=ReportTime~09:47:37|ReportField=ReportDate~17-08-15|ReportField=ReportDateTime~17-08-15 09:47:37|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~Manoel da Silva|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~17-08-15|ReportField=CurrentTime~09:47:27|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Manoel\Dropbox\Dev\Geiger Counter\RNG\Altium source\Geiger.SchDoc|ReportField=DocumentName~Geiger.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~Manoel da Silva|ReportField=Engineer~Manoel da Silva|ReportField=ImagePath~|ReportField=ModifiedDate~21-03-15|ReportField=Organization~|ReportField=ProjectName~Geiger.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~Compteur Geiger|ReportField=DataSourceFileName~Geiger.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Manoel\Dropbox\Dev\Geiger Counter\RNG\Altium source\Geiger.PrjPcb
+Cond pol axial|Condensateur polarisé|C1|CAPPR2-5x6.8|Cond pol axial|1
+Condensateur|Condensateur|C2, C5, C6|CAPR2.54-5.1x3.2|Condensateur|3
+Condensateur|Condensateur|C3, C4|CAPPR5-5x5|Condensateur|2
+Diode|Diode|D1|AXIAL-0.3|Diode|1
+Diode|Diode|D2|DIODE-0.4|Diode|1
+Connecteur 2|Connecteur|J1, J2, J3|HDR1X2|Connecteur 2|3
+Inductance|Inductance|L1|CAPPR7.5-16x35|Inductance|1
+NPN|Transistor Bipolaire|Q1, Q3|TO-92|NPN|2
+NPN|Transistor Bipolaire|Q2|TO-92 - Bis|NPN|1
+Résistance|Résistance standard|R1, R2, R3, R4, R6, R7, R8, R9, R10|AXIAL-0.4|Résistance|9
+Potentiomètre|Potentiomètre|R5|VR5|Potentiomètre|1
+TLC555CP|Timer, 8-pin MDIP|U2|DIP8|LM555CN|1
