@@ -3,7 +3,7 @@ Random number generator
 By Manoel da Silva
 
 Idea from HotBits website, parts of code from coolsciencetech's instructable
-Adapted by Pene for correcting hardware bias
+Adapted by AlexisTM for correcting hardware bias
 */
 
 int time1;
@@ -35,7 +35,7 @@ void count() {
   counts++;
   if (counts > 3) {
     time1 = interval[1] - interval[0];
-    time2 = interval[3] - interval[4];
+    time2 = interval[2] - interval[3];
     if(!OK){
       if (time1 > time2) {
         a = false;
