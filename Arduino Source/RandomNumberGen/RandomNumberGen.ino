@@ -23,6 +23,7 @@ void setup() {
   digitalWrite(3, HIGH);
   //Starting interrupt routine on pin 3
   attachInterrupt(0, count, FALLING);
+  OK = false;
 }
 
 void loop() {
@@ -35,7 +36,7 @@ void count() {
   counts++;
   if (counts > 3) {
     time1 = interval[1] - interval[0];
-    time2 = interval[2] - interval[3];
+    time2 = interval[3] - interval[2];
     if(!OK){
       if (time1 > time2) {
         a = false;
@@ -48,11 +49,12 @@ void count() {
       OK = false;
       if (time1 > time2) {
         b = false;
+        Serial.print(a^b);
       }
       else if (time1 < time2) {
         b = true;
+        Serial.print(a^b);
       }
-      Serial.print(a^b);
     }
     counts = 0; //Reset the array counter
   }
