@@ -35,7 +35,7 @@ void count() {
   counts++;
   if (counts > 3) {
     time1 = interval[1] - interval[0];
-    time2 = interval[2] - interval[3];
+    time2 = interval[3] - interval[2];
     if(!OK){
       if (time1 > time2) {
         a = false;
